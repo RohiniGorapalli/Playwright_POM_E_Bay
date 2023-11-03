@@ -23,7 +23,6 @@ class LoginPage {
   //     await expect(this.inputPassword).toBeVisible();
   //     await this.inputPassword.click();
   //     await this.signIn.click();
-  //     await this.page.waitForTimeout(2000);
   //     await this.inputUsername.type(username);
   //     await this.page.waitForTimeout(2000);
   //     await this.continueBtn.click();
