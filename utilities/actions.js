@@ -22,8 +22,6 @@ exports.executeStep = async (test, element, action, description, data,) => {
       case "toBeDisabled" :
           await element.toBeDisabled();
           break;
-        
-      
       }
   });
 };

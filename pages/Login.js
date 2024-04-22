@@ -61,8 +61,8 @@ class LoginPage {
     await executeStep(this.test,this.rolexSearchBtn,"click",`clicking on rolexSearchBtn button`);
     await executeStep(this.test,this.butItNow,"click",`clicking on But It Now button`);
     await this.page.waitForTimeout(3000);
-    //await executeStep(this.test,this.shopOnEbayStore,"click",`clicking on shop on E-bay store`);
-    //await this.page.waitForTimeout(2000);
+    await executeStep(this.test,this.shopOnEbayStore,"click",`clicking on shop on E-bay store`);
+    await this.page.waitForTimeout(4000);
    // await executeStep(this.test,this.heartSymbol,"toBeDiabled",`checking the heart symbol icon Btn is disabled or not`);
    // await expect(this.checkAlert).toBeVisible();
   };
@@ -78,7 +78,8 @@ class LoginPage {
     await this.clickingOnFashionButton();
     await this.page.waitForTimeout(2000);
     await this.clickingOnSearchButton();
-    await this.page.waitForTimeout(2000);
+    await this.page.waitForTimeout(2000); 
+    
   
   };
 }
